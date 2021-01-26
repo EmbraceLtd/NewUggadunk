@@ -39,6 +39,7 @@ export class AppComponent implements OnInit, AfterViewInit {
       {label: 'Embracing Hitlist Archive', icon: 'fa fa-calendar', routerLink: ['/hitlist'], command: (event) => handleSelected(event)},
       {label: 'Uggadunks bugg', icon: 'fa fa-clock-o', routerLink: ['/uggabugg'], command: (event) => handleSelected(event)},
       {label: 'Media', icon: 'fa fa-tasks', routerLink: ['/media'], command: (event) => handleSelected(event)},
+      {label: 'Kontakt', icon: 'fa fa-tasks', routerLink: ['/kontakt'], command: (event) => handleSelected(event)},
     ]
 
     this.miniMenuItems = [];

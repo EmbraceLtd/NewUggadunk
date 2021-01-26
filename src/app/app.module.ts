@@ -22,6 +22,7 @@ import { HitlistComponent } from './hitlist/hitlist.component';
 import { UggabuggComponent } from './uggabugg/uggabugg.component';
 import { MediaComponent } from './media/media.component';
 import { MejnmenjuComponent } from './mejnmenju/mejnmenju.component';
+import { KontaktComponent } from './kontakt/kontakt.component';
 
 
 const appRoutes: Routes = [
@@ -30,7 +31,8 @@ const appRoutes: Routes = [
   { path: "moose", component: MooseComponent },
   { path: "hitlist", component: HitlistComponent},
   { path: "uggabugg", component: UggabuggComponent},
-  { path: "media", component: MediaComponent}
+  { path: "media", component: MediaComponent},
+  { path: "kontakt", component: KontaktComponent}
 ];
 
 @NgModule({
@@ -48,7 +50,8 @@ const appRoutes: Routes = [
     HitlistComponent,
     UggabuggComponent,
     MediaComponent,
-    MejnmenjuComponent
+    MejnmenjuComponent,
+    KontaktComponent
   ],
   imports: [
     BrowserModule,
