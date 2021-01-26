@@ -34,12 +34,11 @@ export class AppComponent implements OnInit, AfterViewInit {
     }
 
     this.menuItems = [
-      {label: 'Dashboard', icon: 'fa fa-home', routerLink: ['/dashboard'], command: (event) => handleSelected(event)},
-      {label: 'All Times', icon: 'fa fa-calendar', routerLink: ['/alltimes'], command: (event) => handleSelected(event)},
-      {label: 'My Timesheet', icon: 'fa fa-clock-o', routerLink: ['/timesheet'], command: (event) => handleSelected(event)},
-      {label: 'Add Project', icon: 'fa fa-tasks', routerLink: ['/projects'], command: (event) => handleSelected(event)},
-      {label: 'My Profile', icon: 'fa fa-users', routerLink: ['/profile'], command: (event) => handleSelected(event)},
-      {label: 'Settings', icon: 'fa fa-sliders', routerLink: ['/settings'], command: (event) => handleSelected(event)},
+      {label: 'Mejn Menju', icon: 'fa fa-home', routerLink: ['/mejnmenju'], command: (event) => handleSelected(event)},
+      {label: 'Sagan om Älghuds-Bengt', icon: 'fa fa-home', routerLink: ['/moose'], command: (event) => handleSelected(event)},
+      {label: 'Embracing Hitlist Archive', icon: 'fa fa-calendar', routerLink: ['/hitlist'], command: (event) => handleSelected(event)},
+      {label: 'Uggadunks bugg', icon: 'fa fa-clock-o', routerLink: ['/uggabugg'], command: (event) => handleSelected(event)},
+      {label: 'Media', icon: 'fa fa-tasks', routerLink: ['/media'], command: (event) => handleSelected(event)},
     ]
 
     this.miniMenuItems = [];
