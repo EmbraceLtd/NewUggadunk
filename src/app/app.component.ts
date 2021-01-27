@@ -35,11 +35,11 @@ export class AppComponent implements OnInit, AfterViewInit {
 
     this.menuItems = [
       {label: 'Mejn Menju', icon: 'fa fa-home', routerLink: ['/mejnmenju'], command: (event) => handleSelected(event)},
-      {label: 'Sagan om Älghuds-Bengt', icon: 'fa fa-home', routerLink: ['/moose'], command: (event) => handleSelected(event)},
-      {label: 'Embracing Hitlist Archive', icon: 'fa fa-calendar', routerLink: ['/hitlist'], command: (event) => handleSelected(event)},
-      {label: 'Uggadunks bugg', icon: 'fa fa-clock-o', routerLink: ['/uggabugg'], command: (event) => handleSelected(event)},
-      {label: 'Media', icon: 'fa fa-tasks', routerLink: ['/media'], command: (event) => handleSelected(event)},
-      {label: 'Kontakt', icon: 'fa fa-tasks', routerLink: ['/kontakt'], command: (event) => handleSelected(event)},
+      {label: 'Sagan om Älghuds-Bengt', icon: 'fa fa-book', routerLink: ['/moose'], command: (event) => handleSelected(event)},
+      {label: 'Embracing Hitlist Archive', icon: 'fa fa-volume-up', routerLink: ['/hitlist'], command: (event) => handleSelected(event)},
+      {label: 'Uggadunks bugg', icon: 'fa fa-check', routerLink: ['/uggabugg'], command: (event) => handleSelected(event)},
+      {label: 'Media', icon: 'fa fa-youtube', routerLink: ['/media'], command: (event) => handleSelected(event)},
+      {label: 'Kontakt', icon: 'fa fa-envelope', routerLink: ['/kontakt'], command: (event) => handleSelected(event)},
     ]
 
     this.miniMenuItems = [];

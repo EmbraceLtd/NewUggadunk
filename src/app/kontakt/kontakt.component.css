@@ -1,11 +1,20 @@
 .kontaktsheets {
-    background-color: lightcyan;
+    background-color: darkred;
     font-family: "Roboto";
   }
 
 .header {
     padding: 1em;
-    color: brown;
-    background-color: lightcyan;
+    color: gold;
+    background-color: darkred;
     margin-bottom: 1em;
   }
+
+a
+{
+  color:white;
+}
+a:hover
+{
+  color:gold;
+}

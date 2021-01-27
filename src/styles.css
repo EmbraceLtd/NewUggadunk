@@ -2,14 +2,15 @@
 
 /* You can add global styles to this file, and also import other style files */
 body {
-  background-color: #D9E0E7 !important;
+  background-color: darkred !important;
+  color: gold !important;
   margin: 0px;
   font-size: 1em !important;
 }
 
 .ui-panel-titlebar {
-  background-color: #2F8EE5 !important;
-  color: white !important;
+  background-color: darkred !important;
+  color: gold !important;
 }
 
 .ui-menu {

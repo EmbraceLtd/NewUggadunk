@@ -1,0 +1,41 @@
+.moosesheet {
+    background-color: darkred;
+    color: gold;
+    font-family: "Roboto";
+    font-size: xx-large;
+  }
+  
+  .header {
+    padding: 1em;
+    color: white;
+    background-color: rgb(192, 0, 0);
+    margin-bottom: 1em;
+    font-size: xx-large;
+  }
+  
+  .dialogBody {
+    font-size: xx-large;
+  }
+  
+  h2 {
+    font-family:serif;
+    font-weight: bold;
+    font-size: xx-large;
+    font-style: italic;
+  }
+  
+  h3 {
+    font-weight: lighter;
+    font-size: xx-small;
+    display: inline;
+  }
+
+  a
+  {
+    color:gold;
+  }
+  a:hover
+  {
+    color:gold;
+  }
+  

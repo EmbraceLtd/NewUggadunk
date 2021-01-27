@@ -1,18 +1,18 @@
 .mediasheets {
-    background-color: white;
+    
     font-family: "Roboto";
   }
   
   .header {
     padding: 1em;
-    color: white;
-    background-color: #0275D8;
+    color: gold;
+    background-color: darkred;
     margin-bottom: 1em;
   }
   
   h2 {
     font-weight: bolder;
-    font-size: xx-large;
+    font-size: x-large;
     display: inline;
   }
   
