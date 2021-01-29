@@ -1,3 +1,19 @@
-<p>
-  uggabugg works!
-</p>
+<div class="bugsheet ui-g">
+  <div class="header ui-g-12">
+    <h2>
+      Uggadunks bugg
+    </h2>
+  </div>
+  <div class="bugsheet">
+      <label for="notify" class="buglabel">Vad heter du:</label>
+      <input id="notify" class="input"  />
+
+      <p-button (click)="showBasicDialog()" icon="pi pi-check" label="Skicka"></p-button>
+      
+      <p-dialog header="Var hälsad!" [(visible)]="displayBasic" [baseZIndex]="10000" width="200">
+        <h2>Hej A$!</h2>
+        <p-button icon="pi pi-check" (click)="displayBasic=false" label="Tack!" styleClass="p-button-text"></p-button>
+      </p-dialog>
+
+  </div>
+</div>

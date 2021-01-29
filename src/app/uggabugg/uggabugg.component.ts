@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-
 @Component({
   selector: 'at-uggabugg',
   templateUrl: './uggabugg.component.html',
@@ -7,9 +6,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class UggabuggComponent implements OnInit {
 
-  constructor() { }
+  displayBasic = false;
 
   ngOnInit() {
   }
 
+  showBasicDialog() {
+    this.displayBasic = true;
+  }
 }

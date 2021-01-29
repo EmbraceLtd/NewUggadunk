@@ -1,0 +1,32 @@
+.bugsheet {
+    background-color: darkred;
+    color: gold;
+    font-family: "Roboto";
+    font-size: x-large;
+    font-weight: bolder;
+  }
+
+  .buglabel
+  {
+    background-color: darkred;
+    color: gold;
+    font-family: "Roboto";
+    font-size: x-large;
+    margin-right: 1em;
+    margin-left:1em;
+  }
+  .input {
+    padding: 1em;
+    color: black;
+    background-color:white;
+    font-family: "Roboto";
+    font-size: x-large;
+    font-weight:bolder;
+    margin-right: 1em;
+  }
+  h2 {
+    font-weight: bolder;
+    font-size: x-large;
+  }
+  
+
